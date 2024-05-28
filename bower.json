@@ -1,8 +1,8 @@
 {
-  "name": "kanto",
-  "homepage": "https://github.com/darthjee/kanto",
+  "name": "johto",
+  "homepage": "https://github.com/darthjee/johto",
   "description": "Simple AngularJS Router",
-  "main": "kanto.js",
+  "main": "johto.js",
   "keywords": [
     "angulajs",
     "router"
@@ -21,7 +21,6 @@
     "bower_components",
     "test",
     "tests",
-    "docker-compose.yml",
-    "Dockerfile"
+    "docker-compose.yml"
   ]
 }
