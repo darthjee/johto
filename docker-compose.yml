@@ -1,7 +1,7 @@
 version: '3'
 services:
   base: &base
-    image: kanto
+    image: johto
     working_dir: /home/app/app
     volumes:
       - .:/home/app/app
@@ -11,8 +11,8 @@ services:
     build: .
     command: echo done
 
-  kanto:
+  johto:
     <<: *base
-    container_name: kanto
+    container_name: johto
     depends_on: [base_build]
     command: /bin/bash

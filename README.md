@@ -1,18 +1,18 @@
-# kanto
+# johto
 AngularJS Simple Router
 
 This package is aiming to make Angular routing easier
 
 ## Usage
 
-Configuration happens through the module `kantoProvider` where configs are set as default, but routes can have custom configuration
+Configuration happens through the module `johtoProvider` where configs are set as default, but routes can have custom configuration
 
 ### Example
 ```javascript
 (function(angular) {
   var module = angular.module("my_angular_application");
 
-  module.config(["kantoProvider", function(provider) {
+  module.config(["johtoProvider", function(provider) {
     provider.defaultConfig = { // This will be the default configuration for any route
       controller: "Cyberhawk.Controller",
       controllerAs: "genericController",
