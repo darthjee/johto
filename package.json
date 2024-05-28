@@ -1,5 +1,6 @@
 {
   "name": "johto",
+  "version": "0.0.1",
   "homepage": "https://github.com/darthjee/johto",
   "description": "Simple AngularJS Router",
   "main": "johto.js",
