@@ -3,7 +3,6 @@ services:
   johto:
     image: darthjee/node:0.2.0
     container_name: johto
-    depends_on: [base_build]
     command: /bin/bash
     working_dir: /home/app/app
     volumes:
