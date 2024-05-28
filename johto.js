@@ -57,7 +57,7 @@
     _.bindAll(this, '$get');
   };
 
-  var module = angular.module('kanto', ['ngRoute']),
+  var module = angular.module('johto', ['ngRoute']),
     fn = RouterProvider.prototype;
 
   fn.$get = function() {
@@ -73,7 +73,7 @@
     });
   };
 
-  module.provider('kanto', RouterProvider);
+  module.provider('johto', RouterProvider);
 
   module.config(['$routeProvider', function(provider) {
     fn.provider = provider;
