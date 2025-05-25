@@ -1,4 +1,7 @@
 # johto
+
+![johto](https://raw.githubusercontent.com/darthjee/johto/master/johto.jpg)
+
 AngularJS Simple Router
 
 This package is aiming to make Angular routing easier
